@@ -4,6 +4,7 @@ module.exports = {
     "prettier"
   ],
   "rules": {
+    "semi": [ "error", "always" ],
     "no-extra-semi": "error",
     "no-console": "warn",
     "no-var": "error",
@@ -19,7 +20,6 @@ module.exports = {
       "error", 
       { "destructuring": "all" }
     ],
-    "semi": [ "error", "always" ],
     "prettier/prettier": "error"
   }
 }
