@@ -163,6 +163,10 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
 
+confusing-browser-globals@2.0.0-next.b2fd8db8:
+  version "2.0.0-next.b2fd8db8"
+  resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-2.0.0-next.b2fd8db8.tgz#76206be12de4e1ac8b07e8b71b6daea697ba8d73"
+
 contains-path@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/contains-path/-/contains-path-0.1.0.tgz#fe8cf184ff6670b6baef01a9d4861a5cbec4120a"
@@ -245,9 +249,11 @@ escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-eslint-config-react-app@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-react-app/-/eslint-config-react-app-2.1.0.tgz#23c909f71cbaff76b945b831d2d814b8bde169eb"
+eslint-config-react-app@^3.0.0-next.b2fd8db8:
+  version "3.0.0-next.b2fd8db8"
+  resolved "https://registry.yarnpkg.com/eslint-config-react-app/-/eslint-config-react-app-3.0.0-next.b2fd8db8.tgz#9c53f55bcfe11c03ff7075d9c4f113beca85191d"
+  dependencies:
+    confusing-browser-globals "2.0.0-next.b2fd8db8"
 
 eslint-import-resolver-node@^0.3.1:
   version "0.3.1"
